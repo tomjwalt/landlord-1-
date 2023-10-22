@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{       
+    font-family: "montserrat", sans-serif;
+}
+
+
+nav{
+    background: #5f9ea0;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section ul{
+    color: black;
+    border: 5px black;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    display:flex ;
+    align-items:center ;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #5f9ea0;
+}
+
+::placeholder{
+    color: #5f9ea0;
+
+}
+
+.search-bar button img{
+    width: 25px;
+
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #5f9ea0;
+    cursor: pointer;
+
+
+}
+
+ul li h3 strong {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-top: 70px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.section button li ul button h3 strong{
+display: inline-block
+}
